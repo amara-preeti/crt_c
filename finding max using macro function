@@ -1,0 +1,12 @@
+#include<stdio.h>
+#define op(a)
+int main()
+{
+int a,x,y;
+printf("Enter x \n");
+scanf("%d", &a);
+int max=((a%2)<1)?1:0;
+printf("number %d is %d\n",a,max);
+
+return 0;
+}
