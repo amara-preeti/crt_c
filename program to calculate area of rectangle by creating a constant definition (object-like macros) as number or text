@@ -1,0 +1,10 @@
+#include<stdio.h>
+#define length 5
+#define width 4
+int main()
+{
+int area=length * width;
+printf("Enter length and width(just print enter, using macros):");
+printf("area of the rectangle is:%d\n", area);
+return 0;
+}
