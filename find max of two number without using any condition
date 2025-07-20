@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+  int a,b,max,min;
+  printf("enter a value");
+  scanf("%d",&a);
+  printf("enter b value");
+  scanf("%d",&b);
+  max=(a+b+abs(a-b))/2;
+  min=(a+b-abs(a-b))/2;
+  printf("max element is %d",max);
+  printf("min element is %d",min);
+}
